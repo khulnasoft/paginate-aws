@@ -1,0 +1,33 @@
+{
+  "name": "@khulnasoft/paginate-aws",
+  "version": "1.0.6",
+  "description": "Typesafe AWS Pagination using async generators ",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "files": [
+    "dist/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khulnasoft/paginate-aws.git"
+  },
+  "keywords": [
+    "Pagination",
+    "AWS",
+    "Async",
+    "Generators"
+  ],
+  "author": "KhulnaSoft DevSec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khulnasoft/paginate-aws/issues"
+  },
+  "homepage": "https://github.com/khulnasoft/paginate-aws#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
